@@ -51,7 +51,18 @@ main{
     box-shadow: 1px 1px 10px rgb(90, 89, 89);
     border-radius: 20px;
     font-family: var(--primaryFont);
+    margin: 100px 0;
 }
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--primaryColor);
+    border-radius: 10px;
+}
+
 
 .headingSection{
     display: flex;
